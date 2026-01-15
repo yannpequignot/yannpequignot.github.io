@@ -1,27 +1,18 @@
----
----
-
-@import "{{ site.theme }}";
-
-@font-face { 
-  font-family: 'News Cycle'; 
-  src: url('../fonts/NewsCycle-Regular.eot'); 
-  src: local('News Cycle'), url('../fonts/NewsCycle-Regular.ttf'); 
-} 
+@import url('https://fonts.googleapis.com/css?family=News+Cycle:400'); // Ensure to import the font correctly
 
 html { 
   width: 100%;
   max-width: 800px;
-  padding: 2% 2% 2% 2%;
+  padding: 2%;
 }
 
 * { 
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Added for better box model handling */
+  box-sizing: border-box; /* Ensures better box model handling */
 }
 
-/* HTML5 elements as block */
+/* HTML5 elements as block-level elements */
 article, aside, figure, header, hgroup, nav, section { 
   display: block;
 }
@@ -44,218 +35,8 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 { 
-  font-family: 'News Cycle', Arial, sans-serif;
+  font-family: 'News Cycle', Arial, sans-serif; // Updated font-family
   color: #222;
   margin: 0 0 15px;
   padding: 15px 0 5px;
-}
-
-h1 { 
-  font-size: 200%;
-  text-shadow: 1px 1px #FFF;
-}
-
-h2 { 
-  font-size: 200%;
-  text-shadow: 1px 1px #FFF;
-  padding: 0 0 8px;
-}
-
-h3 { 
-  font: normal 125% 'Trebuchet MS', Arial, sans-serif;
-}
-
-h4, h5, h6 { 
-  margin: 0;
-  padding: 0 0 5px;
-  font: normal 110% Arial, sans-serif;
-  color: #999;
-  line-height: 1.5em;
-}
-
-h5, h6 { 
-  font-style: italic;
-  color: #888;
-  padding-bottom: 5px;
-}
-
-h6 { 
-  color: #362C20;
-  padding-bottom: 0px;
-
-}
-
-.more {
-  color: #222;
-  width: 650px;
-  display: none;
-  border-top: 1px solid #057217;
-  border-bottom: 1px solid #057217;
-  padding: 10px 0;
-}
-
-.more h6 {
-  font: normal 100% Arial, sans-serif;
-  color: #057217;
-  display: inline-block;
-}
-
-
-.linked-image {
-  height: 1.5em; /* Set the height equal to the line height */
-  width: auto; /* Maintain aspect ratio */
-  vertical-align: middle; /* Align the image vertically with the text */
-  padding:0;
-}
-
-a, a:hover, a.showLink, a.hideLink { 
-  outline: none;
-  color: #057217;
-  text-decoration: none;
-}
-
-a:hover, a.showLink:hover, a.hideLink:hover { 
-  color: #D2691E;
-}
-
-ul { 
-  margin: 2px 0 22px 17px;
-}
-
-ul li { 
-  padding: 0 0 4px 5px;
-}
-
-ol { 
-  margin: 8px 0 22px 20px;
-}
-
-ol li { 
-  margin: 0 0 11px;
-}
-
-.left { 
-  float: left;
-  margin-right: 2%;
-}
-
-.right { 
-  float: right; 
-  margin-left: 2%;
-}
-
-.center { 
-  display: block;
-  text-align: center;
-  margin: 2% auto;
-}
-
-#main, header, #logo, nav, #site_content { 
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-#main { 
-  width: 100%;
-  margin: 2% auto
-}
-
-
-
-.lavaLampWithImage {
-  position: relative;
-  height: 60px;
-  padding: 10px 25px; /* Simplified padding */
-  margin: 10px 0; /* Adjusted margin */
-  overflow: hidden;
-  display: flex; /* Use flexbox for layout */
-  border-top: 2px solid #000; /* Top border */
-  border-bottom: 2px solid #000; /* Bottom border */
-  padding: 10px 0; /* Optional: Add padding for spacing */
-}
-
-.lavaLampWithImage ul {
-  display: flex; /* Use flexbox for the list */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  list-style: none; /* Remove default list styling */
-}
-
-.lavaLampWithImage li {
-  list-style: none;
-  float: left;
-  z-index: 1000;
-  margin-right: 10px; /* Space between list items */
-  position: relative; /* Ensure positioning for hover effect */
-}
-
-.lavaLampWithImage li.back {
-  background: #057217;
-  border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 15px 15px 15px 15px;
-  -webkit-border: 15px 15px 15px 15px;
-  border:  15px 15px 15px 15px;
-  height: 29px;
-  z-index: 10;
-  position: absolute;
-}
-
-
-.lavaLampWithImage li a {
-  font: normal 140% 'News Cycle', sans-serif;
-  text-shadow: 
-        -1px -1px 0 #F5F5F5,  
-         1px -1px 0 #F5F5F5,
-        -1px  1px 0 #F5F5F5,
-         1px  1px 0 #F5F5F5; /* Outline color and position */
-  text-decoration: none;
-
-  color:  #222;
-  outline: none;
-  text-align: center;
-  letter-spacing: 0;
-  z-index: 1000;
-  display: block;
-  height: 50px;
-  padding: 0 8px; /* Simplified padding */
-}
-
-
-.lavaLampWithImage li a:hover, 
-.lavaLampWithImage li a:active,
-.lavaLampWithImage li a:visited {
-  border: none;
-}
-
-
-#content ul, .sidebar ul { 
-  margin: 2px 0 5px 5px;
-  list-style: none;
-}
-
-#content ul li, .sidebar ul li {  
-  background: transparent url(../images/bullet-sq-do.png) no-repeat left top;
-  background-position: 0px 10px; 
-  margin: 0 0 0 0; 
-  padding: 2px 0 2px 28px;
-  line-height: 1.5em;
-  margin-bottom: 10px;
-  background-size: 10px 10px;
-}
-
-#content ol li {  
-  margin: 2px 0 5px 5px; 
-  padding: 5px 0 2px 17px;
-  line-height: 1.5em;
-  margin-bottom: 10px;
-}
-
-blockquote {
-    max-width: 600px; /* Set the maximum width */
-    margin: 20px auto; /* Center the blockquote with margin */
-    padding: 15px; /* Add padding for spacing */
-    border-left: 5px solid #057217; /* Add a left border for styling */
-    font-style: italic; /* Italicize the text */
-    color: #242725; /* Set the text color */
-    background-color: #fffcf9;/*#eefff8; /* Light background color */
 }
