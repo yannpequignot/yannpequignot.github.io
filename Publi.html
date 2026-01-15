@@ -1,0 +1,553 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Yann Pequignot's Homepage</title>
+  <meta name="description" content="Yann Pequignot Personal Webpage" />
+  <meta name="keywords" content="Yann, Pequignot, Mathematics, Math" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+<script language="javascript" type="text/javascript">
+  function showHide(shID) {
+    if (document.getElementById(shID)) {
+      if (document.getElementById(shID + '-show').style.display != 'none') {
+        document.getElementById(shID + '-show').style.display = 'none';
+        document.getElementById(shID).style.display = 'block';
+      }
+      else {
+        document.getElementById(shID + '-show').style.display = 'inline';
+        document.getElementById(shID).style.display = 'none';
+      }
+    }
+  }
+</script>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <h1>Yann Pequignot</h1>
+      </div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="Publi.html">Publications</a></li>
+          <li><a href="Talks.html">Talks</a></li>
+          <li><a href="Teach.html">Teaching</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+
+      <!--      <div id="sidebar_container">
+        <div class="sidebar">
+        </div>
+      <div class="sidebar">
+          </ul>
+        </div>
+      </div>-->
+      <div id="content">
+
+        <h1>Machine Learning publications</h1>
+
+        <h3>Interpretability</h3>
+        <blockquote>
+        How to provide information on models' decisions that is both trustworthy and useful?
+        </blockquote>
+
+
+        <ul>
+          <li>
+            <h6>Tackling the XAI Disagreement Problem with Regional Explanations <a
+                href="https://proceedings.mlr.press/v238/laberge24a.html"><img src="images/PDF-Icon.png"
+                  alt="PDF"  class="linked-image" /></a></h6>
+            G Laberge, Y Pequignot, M Marchand, F Khomh. AISTATS 2024. </br>
+            <a href="#" id="DIS-show" class="showLink" onclick="showHide('DIS');return false;">See abstract.</a>
+            <div id="DIS" class="more">
+              <a href="#" id="DIS-hide" class="hideLink" onclick="showHide('DIS');return false;">Hide abstract.</a>
+              The XAI Disagreement Problem concerns the fact that various explainability methods yield different
+              local/global insights on model behavior. Thus, given the lack of ground truth in explainability,
+              practitioners are left wondering “Which explanation should I believe?”. In this work, we approach the
+              Disagreement Problem from the point of view of Functional Decomposition (FD). First, we demonstrate that
+              many XAI techniques disagree because they handle feature interactions differently. Secondly, we reduce
+              interactions locally by fitting a so-called FD-Tree, which partitions the input space into regions where
+              the model is approximately additive. Thus instead of providing global explanations aggregated over the
+              whole dataset, we advocate reporting the FD-Tree structure as well as the regional explanations extracted
+              from its leaves. The beneficial effects of FD-Trees on the Disagreement Problem are demonstrated on toy
+              and real datasets.
+            </div>
+          </li>
+
+          <li>
+            <h6>Partial order in chaos: consensus on feature attributions in the rashomon set <a
+                href="https://www.jmlr.org/papers/v24/23-0149.html"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            G Laberge, Y Pequignot, A Mathieu, F Khomh, M Marchand. Journal of Machine Learning Research, 2023. </br>
+            <a href="#" id="RASH-show" class="showLink" onclick="showHide('RASH');return false;">See abstract.</a>
+            <div id="RASH" class="more">
+              <a href="#" id="RASH-hide" class="hideLink" onclick="showHide('RASH');return false;">Hide abstract.</a>
+              Post-hoc global/local feature attribution methods are progressively being employed to understand the
+              decisions of complex machine learning models. Yet, because of limited amounts of data, it is possible to
+              obtain a diversity of models with good empirical performance but that provide very different explanations
+              for the same prediction, making it hard to derive insight from them. In this work, instead of aiming at
+              reducing the under-specification of model explanations, we fully embrace it and extract logical statements
+              about feature attributions that are consistent across all models with good empirical performance (i.e. all
+              models in the Rashomon Set). We show that partial orders of local/global feature importance arise from
+              this methodology enabling more nuanced interpretations by allowing pairs of features to be incomparable
+              when there is no consensus on their relative importance. We prove that every relation among features
+              present in these partial orders also holds in the rankings provided by existing approaches. Finally, we
+              present three use cases employing hypothesis spaces with tractable Rashomon Sets (Additive models, Kernel
+              Ridge, and Random Forests) and show that partial orders allow one to extract consistent local and global
+              interpretations of models despite their under-specification.
+            </div>
+          </li>
+
+          <li>
+            <h6>Understanding Interventional TreeSHAP: How and Why it Works
+              <a href="https://arxiv.org/abs/2209.15123"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a>
+            </h6>
+            G Laberge, Y Pequignot. ArXiv, 2022. </br>
+            <a href="#" id="TSH-show" class="showLink" onclick="showHide('TSH');return false;">See abstract.</a>
+            <div id="TSH" class="more">
+              <a href="#" id="TSH-hide" class="hideLink" onclick="showHide('TSH');return false;">Hide abstract.</a>
+              Shapley values are ubiquitous in interpretable Machine Learning due to their strong theoretical background
+              and efficient implementation in the SHAP library. Computing these values previously induced an exponential
+              cost with respect to the number of input features of an opaque model. Now, with efficient implementations
+              such as Interventional TreeSHAP, this exponential burden is alleviated assuming one is explaining
+              ensembles of decision trees. Although Interventional TreeSHAP has risen in popularity, it still lacks a
+              formal proof of how/why it works. We provide such proof with the aim of not only increasing the
+              transparency of the algorithm but also to encourage further development of these ideas. Notably, our proof
+              for Interventional TreeSHAP is easily adapted to Shapley-Taylor indices and one-hot-encoded features.
+            </div>
+          </li>
+        </ul>
+
+        <h3>Robustness</h3>
+
+        <blockquote>
+        Training data and performance metrics only partially specify the task.
+        </br>
+        Still, ML models are expected to perform reliably in diverse situations.
+        </br>
+        What's the gap between the training objective and the intendend behavior of a model?
+        <!--Where we study how data driven models can make predictions that do not depend on insignificant perturbations of the input. -->
+        </blockquote>
+        
+
+        <ul>
+          <li>
+            <h6>GROOD: Gradient-Aware Out-of-Distribution Detection <a href="https://arxiv.org/abs/2312.14427"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            M ElAraby, S Sahoo, Y Pequignot, P Novello, L Paull. 2025, <a href="https://openreview.net/forum?id=2V7itvvMVJ">TMLR</a>. </br>
+            <a href="#" id="GROOD-show" class="showLink" onclick="showHide('GROOD');return false;">See abstract.</a>
+            <div id="GROOD" class="more">
+              <a href="#" id="GROOD-hide" class="hideLink" onclick="showHide('GROOD');return false;">Hide abstract.</a>
+              Out-of-distribution (OOD) detection is crucial for ensuring the reliability of deep learning models in
+              real-world applications. Existing methods typically focus on feature representations or output-space
+              analysis, often assuming a distribution over these spaces or leveraging gradient norms with respect to
+              model parameters. However, these approaches struggle to distinguish near-OOD samples and often require
+              extensive hyper-parameter tuning, limiting their practicality.
+              In this work, we propose GRadient-aware Out-Of-Distribution detection (GROOD), a method that derives an
+              OOD prototype from synthetic samples and computes class prototypes directly from In-distribution (ID)
+              training data. By analyzing the gradients of a nearest-class-prototype loss function concerning an
+              artificial OOD prototype, our approach achieves a clear separation between in-distribution and OOD
+              samples.
+            </div>
+          </li>
+
+
+          <li>
+            <h6>A Guide to Robust Generalization: The Impact of Architecture, Pre-training, and Optimization Strategy <a
+                href="https://arxiv.org/abs/2508.14079"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            M Heuillet, R Bhagwatkar, J Ngnawé, Y Pequignot, A Larouche, C Gagné, I Rish, O Ahmad, A Durand. 2025, under
+            revision. </br>
+            <a href="#" id="GRG-show" class="showLink" onclick="showHide('GRG');return false;">See abstract.</a>
+            <div id="GRG" class="more">
+              <a href="#" id="GRG-hide" class="hideLink" onclick="showHide('GRG');return false;">Hide abstract.</a>
+              Deep learning models operating in the image domain are vulnerable to small input perturbations. For years,
+              robustness to such perturbations was pursued by training models from scratch (i.e., with random
+              initializations) using specialized loss objectives. Recently, robust fine-tuning has emerged as a more
+              efficient alternative: instead of training from scratch, pretrained models are adapted to maximize
+              predictive performance and robustness. To conduct robust fine-tuning, practitioners design an optimization
+              strategy that includes the model update protocol (e.g., full or partial) and the specialized loss
+              objective. Additional design choices include the architecture type and size, and the pretrained
+              representation. These design choices affect robust generalization, which is the model's ability to
+              maintain performance when exposed to new and unseen perturbations at test time. Understanding how these
+              design choices influence generalization remains an open question with significant practical implications.
+              In response, we present an empirical study spanning 6 datasets, 40 pretrained architectures, 2 specialized
+              losses, and 3 adaptation protocols, yielding 1,440 training configurations and 7,200 robustness
+              measurements across five perturbation types. To our knowledge, this is the most diverse and comprehensive
+              benchmark of robust fine-tuning to date. While attention-based architectures and robust pretrained
+              representations are increasingly popular, we find that convolutional neural networks pretrained in a
+              supervised manner on large datasets often perform best. Our analysis both confirms and challenges prior
+              design assumptions, highlighting promising research directions and offering practical guidance.
+            </div>
+          </li>
+
+          <li>
+            <h6>A Layer Selection Approach to Test Time Adaptation <a href="https://arxiv.org/abs/2508.14079"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            S Sahoo, M ElAraby, J Ngnawe, YB Pequignot, F Precioso, C Gagné. AAAI Conference on Artificial Intelligence
+            2025. </br>
+            <a href="#" id="GALA-show" class="showLink" onclick="showHide('GALA');return false;">See abstract.</a>
+            <div id="GALA" class="more">
+              <a href="#" id="GALA-hide" class="hideLink" onclick="showHide('GALA');return false;">Hide abstract.</a>
+              Test Time Adaptation (TTA) addresses the problem of distribution shift by adapting a pretrained model to a
+              new domain during inference. When faced with challenging shifts, most methods collapse and perform worse
+              than the original pretrained model. In this paper, we find that not all layers are equally receptive to
+              the adaptation, and the layers with the most misaligned gradients often cause performance degradation. To
+              address this, we propose GALA, a novel layer selection criterion to identify the most beneficial updates
+              to perform during test time adaptation. This criterion can also filter out unreliable samples with noisy
+              gradients. Its simplicity allows seamless integration with existing TTA loss functions, thereby preventing
+              degradation and focusing adaptation on the most trainable layers. This approach also helps to regularize
+              adaptation to preserve the pretrained features, which are crucial for handling unseen domains. Through
+              extensive experiments, we demonstrate that the proposed layer selection framework improves the performance
+              of existing TTA approaches across multiple datasets, domain shifts, model architectures, and TTA losses.
+            </div>
+          </li>
+
+
+          <li>
+            <h6>Detecting Brittle Decisions for Free: Leveraging Margin Consistency in Deep Robust Classifiers <a
+                href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/29753d93c5fc11167567e5df800308ae-Abstract-Conference.html"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            J Ngnawé, S Sahoo, Y Pequignot, F Precioso, C Gagné. Neurips 2024.</br>
+            <a href="#" id="DBD-show" class="showLink" onclick="showHide('DBD');return false;">See abstract.</a>
+            <div id="DBD" class="more">
+              <a href="#" id="DBD-hide" class="hideLink" onclick="showHide('DBD');return false;">Hide abstract.</a>
+              Despite extensive research on adversarial training strategies to improve robustness, the decisions of even
+              the most robust deep learning models can still be quite sensitive to imperceptible perturbations, creating
+              serious risks when deploying them for high-stakes real-world applications. While detecting such cases may
+              be critical, evaluating a model's vulnerability at a per-instance level using adversarial attacks is
+              computationally too intensive and unsuitable for real-time deployment scenarios. The input space margin is
+              the exact score to detect non-robust samples and is intractable for deep neural networks. This paper
+              introduces the concept of margin consistency -- a property that links the input space margins and the
+              logit margins in robust models -- for efficient detection of vulnerable samples. First, we establish that
+              margin consistency is a necessary and sufficient condition to use a model's logit margin as a score for
+              identifying non-robust samples. Next, through comprehensive empirical analysis of various robustly trained
+              models on CIFAR10 and CIFAR100 datasets, we show that they indicate high margin consistency with a strong
+              correlation between their input space margins and the logit margins. Then, we show that we can effectively
+              use the logit margin to confidently detect brittle decisions with such models. Finally, we address cases
+              where the model is not sufficiently margin-consistent by learning a pseudo-margin from the feature
+              representation. Our findings highlight the potential of leveraging deep representations to efficiently
+              assess adversarial vulnerability in deployment scenarios.
+            </div>
+          </li>
+
+          <li>
+            <h6>TrackPGD: Efficient Adversarial Attack using Object Binary Masks against Robust Transformer Trackers <a
+                href="https://arxiv.org/abs/2407.03946"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            FN Nokabadi, YB Pequignot, JF Lalonde, C Gagné. NeurIPS 2024, Workshop AdvML-Frontiers.</br>
+            <a href="#" id="TPGD-show" class="showLink" onclick="showHide('TPGD');return false;">See abstract.</a>
+            <div id="TPGD" class="more">
+              <a href="#" id="TPGD-hide" class="hideLink" onclick="showHide('TPGD');return false;">Hide abstract.</a>
+              Adversarial perturbations can deceive neural networks by adding small, imperceptible noise to the input.
+              Recent object trackers with transformer backbones have shown strong performance on tracking datasets, but
+              their adversarial robustness has not been thoroughly evaluated. While transformer trackers are resilient
+              to black-box attacks, existing white-box adversarial attacks are not universally applicable against these
+              new transformer trackers due to differences in backbone architecture. In this work, we introduce TrackPGD,
+              a novel white-box attack that utilizes predicted object binary masks to target robust transformer
+              trackers.
+            </div>
+          </li>
+
+
+         <li>
+            <h6>How to certify machine learning based safety-critical systems? A systematic literature review <a
+                href="https://arxiv.org/abs/2107.12045"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            F Tambon, G Laberge, L An, A Nikanjam, PSN Mindom, Y Pequignot, F Khomh, G Antoniol, E Merlo, F Laviolette. 2022, in <a href="https://doi.org/10.1007/s10515-022-00337-x">Automated Software Engineering</a></br>
+            <a href="#" id="SLR-show" class="showLink" onclick="showHide('SLR');return false;">See abstract.</a>
+            <div id="SLR" class="more">
+              <a href="#" id="SLR-hide" class="hideLink" onclick="showHide('SLR');return false;">Hide abstract.</a>
+              It is crucial to detect when an instance lies downright too far from the training samples for the machine learning model to be trusted, a challenge known as out-of-distribution (OOD) detection. 
+              For neural networks, one approach to this task consists of learning a diversity of predictors that all can explain the training data. 
+              This information can be used to estimate the epistemic uncertainty at a given newly observed instance in terms of a measure of the disagreement of the predictions. 
+              Focusing on regression tasks, we choose a simple yet insightful model for this OOD distribution and conduct an empirical evaluation of the ability of various methods to discriminate OOD samples from the data. 
+              Moreover, we exhibit evidence that a diversity of parameters may fail to translate to a diversity of predictors.
+              Based on the choice of an OOD distribution, we propose a new way of estimating the entropy of a distribution on predictors based on nearest neighbors in function space. This leads to a variational objective which, combined with the family of distributions given by a generative neural network, systematically produces a diversity of predictors that provides a robust way to detect OOD samples.
+            </div>
+          </li>
+
+          <li>
+            <h6>Out-of-distribution detection for regression tasks: parameter versus predictor entropy <a
+                href="https://arxiv.org/abs/2010.12995"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            Y Pequignot, M Alain, P Dallaire, A Yeganehparast, P Germain, J Desharnais, F Laviolette. 2021, arXiv Preprint.</br>
+            <a href="#" id="PVPE-show" class="showLink" onclick="showHide('PVPE');return false;">See abstract.</a>
+            <div id="PVPE" class="more">
+              <a href="#" id="PVPE-hide" class="hideLink" onclick="showHide('PVPE');return false;">Hide abstract.</a>
+              It is crucial to detect when an instance lies downright too far from the training samples for the machine learning model to be trusted, a challenge known as out-of-distribution (OOD) detection. 
+              For neural networks, one approach to this task consists of learning a diversity of predictors that all can explain the training data. 
+              This information can be used to estimate the epistemic uncertainty at a given newly observed instance in terms of a measure of the disagreement of the predictions. 
+              Focusing on regression tasks, we choose a simple yet insightful model for this OOD distribution and conduct an empirical evaluation of the ability of various methods to discriminate OOD samples from the data. 
+              Moreover, we exhibit evidence that a diversity of parameters may fail to translate to a diversity of predictors.
+              Based on the choice of an OOD distribution, we propose a new way of estimating the entropy of a distribution on predictors based on nearest neighbors in function space. This leads to a variational objective which, combined with the family of distributions given by a generative neural network, systematically produces a diversity of predictors that provides a robust way to detect OOD samples.
+            </div>
+          </li>
+
+
+        </ul>
+
+        <!--- <h3>Trustworthiness</h3>
+
+        <blockquote>
+        Training data and performance metrics only partially specify the task.
+        </br>
+        Still, ML models are expected to perform reliably in diverse situations.
+        </br>
+        Here, we study the gap between the training objective and the intendend behavior of a model.
+        </blockquote>
+
+        --->
+        <h1>Mathematical publications</h1>
+
+        <blockquote>
+          Researchers in all areas have imagined a myriad of abstract objects, many of them infinite, and inevitably
+          followed by an infinite suite.
+          </br>
+          What does it mean to understand them? How does a mathematician venture to make sense of these infinities he
+          has imagined?
+          </br>
+          Perhaps, one attempt could be to organise them, to arrange them, to order them.
+        </blockquote>
+
+        <ul>
+          <li>
+            <h6>A well-quasi-order for continuous functions <a href="https://arxiv.org/abs/2410.13150"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            with <a href="http://www.logique.jussieu.fr/~carroy/indexeng.html">Raphaël Carroy</a>. 2024, under revision.
+            </br>
+
+            <a href="#" id="WBI-show" class="showLink" onclick="showHide('WBI');return false;">See abstract.</a>
+            <div id="WBI" class="more">
+              <a href="#" id="WBI-hide" class="hideLink" onclick="showHide('WBI');return false;">Hide abstract.</a>
+              We prove that continuous reducibility is a well-quasi-order on the class of continuous functions between
+              separable metrizable spaces with analytic zero-dimensional domain. To achieve this, we define scattered
+              functions, which generalize scattered spaces, and describe exhaustively scattered functions between
+              zero-dimensional separable metrizable spaces up to continuous equivalence.
+            </div>
+
+
+          <li>
+            <h6>Well, Better and In-Between <a href="http://doi.org/10.1007/978-3-030-30229-0_1"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            with <a href="http://www.logique.jussieu.fr/~carroy/indexeng.html">Raphaël Carroy</a>. (2020) In Well
+            Quasi-orders in Computation, Logic, Language and Reasoning. Ed. P Schuster, M Seisenberger, A
+            Weiermann, Trends in Logic, Springer.</br>
+
+            <a href="#" id="WBI-show" class="showLink" onclick="showHide('WBI');return false;">See abstract.</a>
+            <div id="WBI" class="more">
+              <a href="#" id="WBI-hide" class="hideLink" onclick="showHide('WBI');return false;">Hide abstract.</a>
+              Starting from well-quasi-orders (wqos), we motivate step by step the introduction of the complicated
+              notion of better-quasi-order (bqo). We then discuss the equivalence between the two main approaches to
+              defining bqo and state several essential results of bqo theory.
+              After recalling the role played by the ideals of a wqo in its bqoness, we give a new presentation of known
+              examples of wqos which fail to be bqo. We also provide new forbidden pattern conditions ensuring that a
+              quasi-order is a better quasi-order.
+            </div>
+
+
+
+
+          <li>
+            <h6>Embeddability on functions: order and chaos<a href="https://arxiv.org/pdf/1802.08341"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            with <a href="http://www.logique.jussieu.fr/~carroy/indexeng.html">Raphaël Carroy</a> and <a
+              href="http://www.logic.univie.ac.at/~vidnyanszz77/">Zoltán Vidnánszky</a>. <a
+              href="https://doi.org/10.1090/tran/7739" target="_blank">Trans. Amer. Math. Soc. 371 (2019),
+              6711-6738.</a> Preprint available on <a href="https://arxiv.org/abs/1802.08341"
+              target="_blank">arXiv.org</a></br>
+
+            <a href="#" id="EmFun-show" class="showLink" onclick="showHide('EmFun');return false;">See abstract.</a>
+            <div id="EmFun" class="more">
+              <a href="#" id="EmFun-hide" class="hideLink" onclick="showHide('EmFun');return false;">Hide abstract.</a>
+              We study the quasi-order of topological embeddability on definable functions between Polish
+              zero-dimensional spaces. We first study the descriptive complexity of this quasi-order restricted to the
+              space of continuous functions. Our main result is the following dichotomy: the embeddability quasi-order
+              restricted to continuous functions from a given compact space to another is either an analytic complete
+              quasi-order or a well-quasi-order.
+              </br>
+              We then turn to the existence of maximal elements with respect to embeddability in a given Baire class. It
+              is proved that the class of continuous functions is the only Baire class to admit a maximal element. We
+              prove that no Baire class admits a maximal element, except for the class of continuous functions which
+              admits a maximum element.
+            </div>
+
+
+          <li>
+            <h6>Towards better: a motivated introduction to BQO<a href="https://arxiv.org/pdf/1604.05866"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            <a href="https://doi.org/10.4171/EMSS/4-2-2" target="_blank">EMS Surveys in Mathematical Sciences, Volume 4,
+              Issue 2, 2017, pp. 185-218.</a>Preprint available on <a href="https://arxiv.org/abs/1604.05866"
+              target="_blank">arXiv.org</a></br>
+
+            <a href="#" id="ToBe-show" class="showLink" onclick="showHide('ToBe');return false;">See abstract.</a>
+            <div id="ToBe" class="more">
+              <a href="#" id="ToBe-hide" class="hideLink" onclick="showHide('ToBe');return false;">Hide abstract.</a>
+              The well-quasi-orders (WQO) play an important role in various fields such as Computer Science, Logic or
+              Graph Theory. Since the class of WQOs lacks closure under some important operations, the proof that a
+              certain quasi-order is WQO consists often of proving it enjoys a stronger and more complicated property,
+              namely that of being a better-quasi-order (BQO).
+              </br>
+              Several articles contains valuable introductory material to the theory of BQOs. However, a textbook
+              entitled "Introduction to better-quasi-order theory" is yet to be written. Here is an attempt to give a
+              motivated and self-contained introduction to the deep concept defined by Nash-Williams that we would
+              expect to find in such a textbook.
+            </div>
+
+          <li>
+            <h6>Finite versus infinite: an insufficient shift <a href="https://arxiv.org/pdf/1612.01435.pdf"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            <a href="https://doi.org/10.1016/j.aim.2017.08.044">Advances in Mathematics, 2017, 320 (7), 244-249.
+            </a>Preprint available on <a href="https://arxiv.org/abs/1612.01435" target="_blank">arXiv.org</a></br>
+            <a href="#" id="SHIFT-show" class="showLink" onclick="showHide('SHIFT');return false;">See abstract.</a>
+            <div id="SHIFT" class="more">
+              <a href="#" id="SHIFT-hide" class="hideLink" onclick="showHide('SHIFT');return false;">Hide abstract.</a>
+              The shift graph is defined on the space of infinite subsets of natural numbers by letting two sets be
+              adjacent if one can be obtained from the other by removing its least element. We show that this graph is
+              not a minimum among the graphs of the form Gf defined on some Polish space X, where two distinct points
+              are adjacent if one can be obtained from the other by a given Borel function f:X→X. This answers the
+              primary outstanding question from (Kechris, Solecki and Todorcevic; 1999).
+            </div>
+          </li>
+
+          <li>
+            <h6>A Wadge hierarchy for second countable spaces <a href="Pdf/YP-AWadgeHierarchy.pdf"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            Archive for Mathematical Logic, 2015, 54 (5), 659–683. The final publication is available at <a
+              href="http://dx.doi.org/10.1007/s00153-015-0434-y">Springer</a>.</br>
+            <a href="#" id="Wadge-show" class="showLink" onclick="showHide('Wadge');return false;">See abstract.</a>
+            <div id="Wadge" class="more">
+              <a href="#" id="Wadge-hide" class="hideLink" onclick="showHide('Wadge');return false;">Hide abstract.</a>
+              We define a notion of reducibility for subsets of a second countable T0 topological space based on,
+              relatively continuous relations and admissible representations. It coincides with Wadge reducibility on
+              zero dimensional spaces. However in virtually every second countable T0 space, it yields a hierarchy on
+              Borel sets, namely it is wellfounded and antichains are of length at most 2. It thus differs from the
+              Wadge reducibility in many important cases, for example on the real line or the Scott Domain P(ω).
+            </div>
+          </li>
+
+          <li>
+            <h6>From Well to Better, the Space of Ideals <a href="Pdf/CarroyP2013-FromWellToBetter.pdf"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            Fundamenta Mathematicae, 2014, 227 (3), 247-270. With <a
+              href="http://www.logique.jussieu.fr/~carroy/indexeng.html">Raphaël Carroy</a>. DOI: <a
+              href="http://dx.doi.org/10.4064/fm227-3-2">10.4064/fm227-3-2</a>
+            </br> <a href="#" id="bqo-show" class="showLink" onclick="showHide('bqo');return false;">See abstract.</a>
+            <div id="bqo" class="more">
+              <a href="#" id="bqo-hide" class="hideLink" onclick="showHide('bqo');return false;">Hide abstract.</a>
+              On the one hand, the ideals of a well quasi-order (wqo) naturally
+              form a compact topological space into which the wqo embeds. On the
+              other hand, Nash-Williams' barriers are given a uniform structure by
+              embedding them into the Cantor space. <br />
+
+              We prove that every map from a barrier into a wqo restricts
+              on a barrier to a uniformly continuous map, and therefore extends
+              to a continuous map from a countable closed subset of the Cantor
+              space into the space of ideals of the wqo. We then prove that, by
+              shrinking further, any such continuous map admits a canonical form
+              with regard to the points whose image is not isolated.
+              <br />
+              As a consequence, we obtain a simple proof of a result on better
+              quasi-orders (bqo); namely, a wqo whose set of non principal ideals
+              is bqo is actually bqo.
+
+            </div>
+          </li>
+          <li>
+            <h6>Duality and the equational theory of regular languages <a
+                href="Pdf/StoneDualityAndRegularLanguages.pdf"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+            Future Directions for Logic: Proceedings of PhDs in Logic III. IfColog Proceedings 2. College Publications.
+            </br>
+            <a href="#" id="Duality-show" class="showLink" onclick="showHide('Duality');return false;">See abstract.</a>
+            <div id="Duality" class="more">
+              <a href="#" id="Duality-hide" class="hideLink" onclick="showHide('Duality');return false;">Hide
+                abstract.</a>
+              On one hand, the Eilenberg variety theorem establishes a bijective
+              correspondence between varieties of formal languages and varieties of nite monoids. On the other hand,
+              the Reiterman theorem states that varieties
+              of finite monoids are exactly the classes of finite monoids definable by
+              profnite equations. Together these two theorems give a structural insight
+              in the algebraic theory of finite automata. We explain how duality theory
+              can account for the combination of this two theorems, as it was pointed
+              out by (Gehrke, Grigorieff and Pin, 2008).
+            </div>
+          </li>
+        </ul>
+
+        <h1>Ph.D. Thesis</h1>
+        <ul>
+          <li>
+            <h6> Better-quasi-order: Ideals and Spaces <a href="Pdf/PhD-Thesis-YPequignot-onscreen.pdf"><img
+                  src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a> </h6> 2015, PhD advisors: Jacques Duparc (Lausanne) and Jean-Éric Pin
+            (CNRS, Paris 7).
+        
+          </li>
+        
+        </ul>
+        
+        <!--
+<h1>Notes</h1>
+<ol>
+<li> <h6>Towards better<a href="Pdf/YP-TowardsBetter.pdf"><img src="images/PDF-Icon.png" alt="PDF"  class="linked-image" /></a></h6>
+        <a href="#" id="ToBe-show" class="showLink" onclick="showHide('ToBe');return false;">See abstract.</a>
+      <div id="ToBe" class="more">
+     <a href="#" id="ToBe-hide" class="hideLink" onclick="showHide('ToBe');return false;">Hide abstract.</a> Several articles contains valuable introductory material to the theory of better-quasi-orders. However, a book entitled "Introduction to better-quasi-order theory" is yet to be written. Here is an humble attempt to give the motivated introduction to the deep definition of Nash-Williams I wished I had when I began studying the theory in 2012. It is based on the first chapter of my PhD thesis.      
+       
+      </div>
+</li>
+
+</ol>
+
+-->
+        <h1>Selected undergraduate works</h1>
+        <ul>
+          <li>
+            <h6>Détermination projective</h6>
+            Master thesis (in french), EPFL, July 2010. <a href="Pdf/master_thesis.pdf">Pdf</a>
+          </li>
+          <li>
+            <h6>Automates, Langages et Logique</h6>
+            Semester Project (in french), EPFL, Autumn 2009. <a href="Pdf/Automata.pdf">Pdf</a>
+          </li>
+          <li>
+            <h6>Théorie spectrale et évolution en mécanique quantique</h6>
+            Semester Project (in french), EPFL, Autumn 2008. <a href="Pdf/YP-TheorieSpectrale.pdf">Pdf</a>
+          </li>
+          <li>
+            <h6>Étude du ollie</h6>
+            Travail de maturité fédérale (in french), Lycée Blaise Cendrars. 2005. <a href="Pdf/TravailDeMaturite.pdf">Pdf</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+      
+    </div>
+
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#images').kwicks({
+        max: 600,
+        spacing: 2
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(function () {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+
+</html>
