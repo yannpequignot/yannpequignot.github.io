@@ -8,6 +8,8 @@ layout: default
 
 > How to provide information on models' decisions that is both trustworthy and useful?
 
+
+
 - [**Tackling the XAI Disagreement Problem with Regional Explanations**](https://proceedings.mlr.press/v238/laberge24a.html)
 
   G Laberge, Y Pequignot, M Marchand, F Khomh. AISTATS 2024.
@@ -20,11 +22,22 @@ layout: default
 
   G Laberge, Y Pequignot. ArXiv, 2022.
 
+## Safe learning from interactions
+ > Learning through interactions is an extremely powerful approach, yet it also carries inherent risks. Therefore, it is essential to develop theories and methods to enable agents to learn and explore safely.
+
+- [**SHAPO: Sharpness-Aware Policy Optimization for Safe Exploration**](https://openreview.net/pdf?id=7cUxi8LbKD)
+
+ K Mani, Y Pequignot, V Mai, L Paull. [ICLR 2026](https://openreview.net/forum?id=7cUxi8LbKD)
+
 ## Robustness
 
 > Training data and performance metrics only partially specify the task.
 > Still, ML models are expected to perform reliably in diverse situations.
 > What's the gap between the training objective and the intendend behavior of a model?
+
+- [**Robust Fine-Tuning from Non-Robust Pretrained Models: Mitigating Suboptimal Transfer With Adversarial Scheduling**](https://arxiv.org/abs/2509.23325)
+
+  J Ngnawé, M Heuillet, S Sahoo, Y Pequignot, O Ahmad, A Durand, F Precioso, C Gagné. [ICLR 2026](https://openreview.net/forum?id=aIBFTh2ThF)
 
 - [**GROOD: Gradient-Aware Out-of-Distribution Detection**](https://arxiv.org/abs/2312.14427)
 
