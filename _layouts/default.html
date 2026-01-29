@@ -52,6 +52,16 @@
     {% else %}
         <meta name="twitter:image" content="{{ site.profile_picture }}">
     {% endif %}
+        <!-- Twitter -->
+        <meta name="gscholar:card" content="summary">
+        <meta name="gscholar:title" content="{{ site.title }}">
+        <meta name="gscholar:description" content="{{ desc }}">
+        <meta name="gscholar:url" content="{{ url }}">
+        {% if site.twitter_image %}
+            <meta name="twitter:image" content="{{ site.twitter_image }}">
+        {% else %}
+            <meta name="twitter:image" content="{{ site.profile_picture }}">
+        {% endif %}
 </head>
 <body>
     <div class="wrapper">

@@ -8,7 +8,9 @@ layout: default
 
 > How to provide information on models' decisions that is both trustworthy and useful?
 
+- [**GRANITE: A Generalized Regional Framework for Identifying Agreement in Feature-Based Explanations**](https://openreview.net/forum?id=gAO7AFSTJD)
 
+J Herbinger, G Laberge, M Muschalik, Y Pequignot, MN Wright, F Fumagalli. AISTATS 2026.   
 
 - [**Tackling the XAI Disagreement Problem with Regional Explanations**](https://proceedings.mlr.press/v238/laberge24a.html)
 
@@ -27,7 +29,7 @@ layout: default
 
 - [**SHAPO: Sharpness-Aware Policy Optimization for Safe Exploration**](https://openreview.net/pdf?id=7cUxi8LbKD)
 
- K Mani, Y Pequignot, V Mai, L Paull. [ICLR 2026](https://openreview.net/forum?id=7cUxi8LbKD)
+ K Mani, Y Pequignot, V Mai, L Paull. [ICLR 2026](https://openreview.net/forum?id=7cUxi8LbKD).
 
 ## Robustness
 
@@ -37,7 +39,7 @@ layout: default
 
 - [**Robust Fine-Tuning from Non-Robust Pretrained Models: Mitigating Suboptimal Transfer With Adversarial Scheduling**](https://arxiv.org/abs/2509.23325)
 
-  J Ngnawé, M Heuillet, S Sahoo, Y Pequignot, O Ahmad, A Durand, F Precioso, C Gagné. [ICLR 2026](https://openreview.net/forum?id=aIBFTh2ThF)
+  J Ngnawé, M Heuillet, S Sahoo, Y Pequignot, O Ahmad, A Durand, F Precioso, C Gagné. [ICLR 2026](https://openreview.net/forum?id=aIBFTh2ThF).
 
 - [**GROOD: Gradient-Aware Out-of-Distribution Detection**](https://arxiv.org/abs/2312.14427)
 

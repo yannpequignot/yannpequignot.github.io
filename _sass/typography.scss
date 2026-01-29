@@ -14,6 +14,12 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
+    h a {
+        color: #333333; // Replace 'your-color' with the desired color value
+      }
+    h a:hover {
+        color: $accent; // Replace 'your-color' with the desired color value
+      }
     ul > li {
         margin: 5px 0 5px 0;
     }
