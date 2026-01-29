@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Mathematics Instructor
 
 - **Math 222, Calculus 3**

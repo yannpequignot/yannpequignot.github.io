@@ -28,3 +28,8 @@ nav:
    link: "contact"
 
 
+plugins:
+  - jekyll-remote-theme
+
+remote_theme:
+  - remote_theme: ankitsultana/researcher@gem
