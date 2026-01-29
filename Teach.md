@@ -13,18 +13,6 @@ layout: default
 - **Math 133, Linear Algebra and Geometry**
   Fall 2018, McGill University.
 
-# Teaching assistant in mathematics
-
-## Class tutor
-
-- **Set theory**
-  Master. École Polytechnique Fédérale de Lausanne (EPFL). Autumn 2013.
-
-- **Logique Mathématique**
-  Bachelor 3rd year. École Polytechnique Fédérale de Lausanne (EPFL). Autumn 2014, 2013, 2012 and 2011.
-
-- **Gödel and recursivity**
-  Master. École Polytechnique Fédérale de Lausanne (EPFL). Autumn 2014, Spring 2013 and Spring 2011.
 
 # Unofficial PhD Supervisor in Machine Learning
 
@@ -45,6 +33,20 @@ Université De Montréal (UdeM), Université Laval.
 - **Kaustubh Mani**
   Safety in Reinforcement Learning.
   Ongoing at Université Laval since 2021.
+
+# Teaching assistant in mathematics
+
+## Class tutor
+
+- **Set theory**
+  Master. École Polytechnique Fédérale de Lausanne (EPFL). Autumn 2013.
+
+- **Logique Mathématique**
+  Bachelor 3rd year. École Polytechnique Fédérale de Lausanne (EPFL). Autumn 2014, 2013, 2012 and 2011.
+
+- **Gödel and recursivity**
+  Master. École Polytechnique Fédérale de Lausanne (EPFL). Autumn 2014, Spring 2013 and Spring 2011.
+
 
 ## Supervision of a Master thesis in Mathematics
 
