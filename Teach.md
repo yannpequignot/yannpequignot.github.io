@@ -14,9 +14,7 @@ layout: default
   Fall 2018, McGill University.
 
 
-# Unofficial PhD Supervisor in Machine Learning
-
-Université De Montréal (UdeM), Université Laval.
+# (Unofficial) PhD Supervisor in ML
 
 - **Gabriel Laberge**
   Trustworthy Additive Explanations of Machine Learning Models through Increased Alignment.
@@ -24,15 +22,15 @@ Université De Montréal (UdeM), Université Laval.
 
 - **Jonas Ngnawé**
   On the Robustness of Deep Learning.
-  Ongoing at Université Laval since 2021.
+  Université Laval. 
 
 - **Sabyasachi Sahoo**
   On Domain Generalization of Deep Learning.
-  Ongoing at Université Laval since 2021.
+  Université Laval.
 
 - **Kaustubh Mani**
   Safety in Reinforcement Learning.
-  Ongoing at Université Laval since 2021.
+  Université de Montréal.
 
 # Teaching assistant in mathematics
 

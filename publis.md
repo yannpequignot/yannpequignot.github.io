@@ -10,7 +10,7 @@ layout: default
 
 - [**GRANITE: A Generalized Regional Framework for Identifying Agreement in Feature-Based Explanations**](https://openreview.net/forum?id=gAO7AFSTJD)
 
-J Herbinger, G Laberge, M Muschalik, Y Pequignot, MN Wright, F Fumagalli. AISTATS 2026.   
+  J Herbinger, G Laberge, M Muschalik, Y Pequignot, MN Wright, F Fumagalli. AISTATS 2026.   
 
 - [**Tackling the XAI Disagreement Problem with Regional Explanations**](https://proceedings.mlr.press/v238/laberge24a.html)
 
@@ -29,7 +29,7 @@ J Herbinger, G Laberge, M Muschalik, Y Pequignot, MN Wright, F Fumagalli. AISTAT
 
 - [**SHAPO: Sharpness-Aware Policy Optimization for Safe Exploration**](https://openreview.net/pdf?id=7cUxi8LbKD)
 
- K Mani, Y Pequignot, V Mai, L Paull. [ICLR 2026](https://openreview.net/forum?id=7cUxi8LbKD).
+  K Mani, Y Pequignot, V Mai, L Paull. [ICLR 2026](https://openreview.net/forum?id=7cUxi8LbKD).
 
 ## Robustness
 
