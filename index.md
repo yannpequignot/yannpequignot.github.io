@@ -42,4 +42,11 @@ I joined Laval University, Québec, in November 2019 at the [Centre de recherche
 </p>
 
 
-A souvenir from Santa Monica: [Des Suisses à Hollywood: Yann Pequignot, mathématicien. Radio Télévision Suisse (RTS), Mai 2018.](https://www.rts.ch/info/culture/9549127-des-suisses-a-hollywood-yann-pequignot-mathematicien.html)
+<div markdown="1" class="pubs">
+
+<div class="pub" markdown="1">
+A souvenir from Santa Monica
+
+[Des Suisses à Hollywood: Yann Pequignot, mathématicien. Radio Télévision Suisse (RTS), Mai 2018.](https://www.rts.ch/info/culture/9549127-des-suisses-a-hollywood-yann-pequignot-mathematicien.html)
+</div>
+</div>
