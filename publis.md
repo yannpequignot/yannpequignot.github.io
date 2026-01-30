@@ -146,11 +146,11 @@ layout: default
 
 - [**Embeddability on functions: order and chaos**](https://arxiv.org/pdf/1802.08341)
 
-  with [Raphaël Carroy](http://www.logique.jussieu.fr/~carroy/indexeng.html) and [Zoltán Vidnánszky](http://www.logic.univie.ac.at/~vidnyanszz77/). [Trans. Amer. Math. Soc. 371 (2019), 6711-6738.](https://doi.org/10.1090/tran/7739) Preprint available on [arXiv.org](https://arxiv.org/abs/1802.08341)
+  with [Raphaël Carroy](http://www.logique.jussieu.fr/~carroy/indexeng.html) and [Zoltán Vidnánszky](http://www.logic.univie.ac.at/~vidnyanszz77/). [Trans. Amer. Math. Soc. 371 (2019), 6711-6738.](https://doi.org/10.1090/tran/7739)
 
 - [**Towards better: a motivated introduction to BQO**](https://arxiv.org/pdf/1604.05866)
 
-  [EMS Surveys in Mathematical Sciences, Volume 4, Issue 2, 2017, pp. 185-218.](https://doi.org/10.4171/EMSS/4-2-2) Preprint available on [arXiv.org](https://arxiv.org/abs/1604.05866)
+  [EMS Surveys in Mathematical Sciences, Volume 4, Issue 2, 2017, pp. 185-218.](https://doi.org/10.4171/EMSS/4-2-2) 
 
 - [**Finite versus infinite: an insufficient shift**](https://arxiv.org/pdf/1612.01435.pdf)
 
