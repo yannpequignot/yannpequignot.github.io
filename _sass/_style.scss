@@ -19,7 +19,8 @@ a {
     color: $accent;
 }
 a:hover {
-    text-decoration: underline;
+        text-decoration: underline;
+        color: $accent-hover;
 }
 hr {
     border: 0;
@@ -28,14 +29,25 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+em {
+    color: $accent-hover;
+    font-style: normal;
+}
 /*
  * Navbar
  */
 
 #author-name {
-    font-size: 30px;
-    color: #272727;
+    font-size: 32px;
+    color: $text-primary;
     display: inline-block;
+    font-weight: 600;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $accent;
+        text-decoration: none;
+    }
 }
 .navbar {
     padding: 50px 0 50px 0;

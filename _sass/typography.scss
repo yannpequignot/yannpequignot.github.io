@@ -2,7 +2,7 @@
 
 .content {
     a:hover {
-        text-decoration: underline;
+        color: $accent-hover;
     }
     ol {
         counter-reset: list;
@@ -18,7 +18,7 @@
         color: #333333; // Replace 'your-color' with the desired color value
       }
     h a:hover {
-        color: $accent; // Replace 'your-color' with the desired color value
+        color: $accent-hover; // Replace 'your-color' with the desired color value
       }
     ul > li {
         margin: 5px 0 5px 0;
@@ -37,28 +37,11 @@
     }
     blockquote {
         //border: 1px solid black;
-        border-left: 5px solid #333333;
+        background: $border-light;
+        border-radius: 5px;
         margin: 20px 0 20px 0;
         padding: 2px 8px 2px 8px;
         font-style: italic;
-    }
-    .static-picture{
-        width: 100%;
-        height: 100%;
-        @media (max-width: $small-width) {
-            img {
-                margin-top: -5px;
-            }
-        }
-    }
-    .overlay-picture{
-        position: absolute;
-        z-index: 10; /* Ensures the overlay image is on top */ 
-        @media (max-width: $small-width) {
-            img {
-                margin-top: -5px;
-            }
-        }   
     }
     .container img {
         height: $image-size;
@@ -122,5 +105,36 @@
         text-align: center;
         width: 100%;
     }
-    
+     // Publication sections styling
+     .pubs {
+        margin-top: 1em;
+    }
+
+    .pub {
+        margin-bottom: 1.5em;
+        padding: 5px;
+        background: $bg-light;
+        border-left: 3px solid $accent;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+
+        &:hover { 
+            background: #F5F5F5;
+            border-left-color: $accent-hover;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        p:first-child {
+            margin-top: 0;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        strong:first-child {
+            color: $text-primary;
+            font-size: 1.05em;
+        }
+    }
 }

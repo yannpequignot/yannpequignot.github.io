@@ -6,68 +6,126 @@ layout: default
 
 ## Interpretability
 
+
 > How to provide information on models' decisions that is both trustworthy and useful?
 
-- [**GRANITE: A Generalized Regional Framework for Identifying Agreement in Feature-Based Explanations**](https://openreview.net/forum?id=gAO7AFSTJD)
+<div markdown="1" class="pubs">
 
-  J Herbinger, G Laberge, M Muschalik, Y Pequignot, MN Wright, F Fumagalli. AISTATS 2026.   
+<div class="pub" markdown="1">
+[**GRANITE: A Generalized Regional Framework for Identifying Agreement in Feature-Based Explanations**](https://openreview.net/forum?id=gAO7AFSTJD)
 
-- [**Tackling the XAI Disagreement Problem with Regional Explanations**](https://proceedings.mlr.press/v238/laberge24a.html)
+  J Herbinger, G Laberge, M Muschalik, <em><em>Y Pequignot</em></em>, MN Wright, F Fumagalli.
+  
+  AISTATS 2026.   
+</div>
 
-  G Laberge, Y Pequignot, M Marchand, F Khomh. AISTATS 2024.
+<div class="pub" markdown="1">
+[**Tackling the XAI Disagreement Problem with Regional Explanations**](https://proceedings.mlr.press/v238/laberge24a.html)
 
-- [**Partial order in chaos: consensus on feature attributions in the rashomon set**](https://www.jmlr.org/papers/v24/23-0149.html)
+  G Laberge, <em><em>Y Pequignot</em></em>, M Marchand, F Khomh. 
+  
+  AISTATS 2024.
+</div>
 
-  G Laberge, Y Pequignot, A Mathieu, F Khomh, M Marchand. Journal of Machine Learning Research, 2023.
+<div class="pub" markdown="1">
+[**Partial order in chaos: consensus on feature attributions in the rashomon set**](https://www.jmlr.org/papers/v24/23-0149.html)
 
-- [**Understanding Interventional TreeSHAP: How and Why it Works**](https://arxiv.org/abs/2209.15123)
+  G Laberge, <em><em>Y Pequignot</em></em>, A Mathieu, F Khomh, M Marchand. 
+  
+  JMLR, 2023.
+</div>
 
-  G Laberge, Y Pequignot. ArXiv, 2022.
+<div class="pub" markdown="1">
+[**Understanding Interventional TreeSHAP: How and Why it Works**](https://arxiv.org/abs/2209.15123)
+
+  G Laberge, <em>Y Pequignot</em>. ArXiv, 2022.
+</div>
+</div>
 
 ## Safe learning from interactions
  > Learning through interactions is an extremely powerful approach, yet it also carries inherent risks. Therefore, it is essential to develop theories and methods to enable agents to learn and explore safely.
 
-- [**SHAPO: Sharpness-Aware Policy Optimization for Safe Exploration**](https://openreview.net/pdf?id=7cUxi8LbKD)
+<div markdown="1" class="pubs">
 
-  K Mani, Y Pequignot, V Mai, L Paull. [ICLR 2026](https://openreview.net/forum?id=7cUxi8LbKD).
+<div class="pub" markdown="1">
+[**SHAPO: Sharpness-Aware Policy Optimization for Safe Exploration**](https://openreview.net/pdf?id=7cUxi8LbKD)
 
+  K Mani, <em>Y Pequignot</em>, V Mai, L Paull. 
+  
+  [ICLR 2026](https://openreview.net/forum?id=7cUxi8LbKD).
+</div>
+</div>
 ## Robustness
 
 > Training data and performance metrics only partially specify the task.
 > Still, ML models are expected to perform reliably in diverse situations.
 > What's the gap between the training objective and the intendend behavior of a model?
 
-- [**Robust Fine-Tuning from Non-Robust Pretrained Models: Mitigating Suboptimal Transfer With Adversarial Scheduling**](https://arxiv.org/abs/2509.23325)
+<div markdown="1" class="pubs">
 
-  J Ngnawé, M Heuillet, S Sahoo, Y Pequignot, O Ahmad, A Durand, F Precioso, C Gagné. [ICLR 2026](https://openreview.net/forum?id=aIBFTh2ThF).
+<div class="pub" markdown="1">
+[**Robust Fine-Tuning from Non-Robust Pretrained Models: Mitigating Suboptimal Transfer With Adversarial Scheduling**](https://arxiv.org/abs/2509.23325)
 
-- [**GROOD: Gradient-Aware Out-of-Distribution Detection**](https://arxiv.org/abs/2312.14427)
+  J Ngnawé, M Heuillet, S Sahoo, <em>Y Pequignot</em>, O Ahmad, A Durand, F Precioso, C Gagné. 
+  
+  [ICLR 2026](https://openreview.net/forum?id=aIBFTh2ThF).
+</div>
 
-  M ElAraby, S Sahoo, Y Pequignot, P Novello, L Paull. 2025, [TMLR](https://openreview.net/forum?id=2V7itvvMVJ).
+<div class="pub" markdown="1">
 
-- [**A Guide to Robust Generalization: The Impact of Architecture, Pre-training, and Optimization Strategy**](https://arxiv.org/abs/2508.14079)
+[**GROOD: Gradient-Aware Out-of-Distribution Detection**](https://arxiv.org/abs/2312.14427)
 
-  M Heuillet, R Bhagwatkar, J Ngnawé, Y Pequignot, A Larouche, C Gagné, I Rish, O Ahmad, A Durand. Workshop @ NeurIPS 2025: Reliable ML from Unreliable Data.
+  M ElAraby, S Sahoo, <em>Y Pequignot</em>, P Novello, L Paull. 
+  
+  [TMLR 2025](https://openreview.net/forum?id=2V7itvvMVJ).
+</div>
 
-- [**A Layer Selection Approach to Test Time Adaptation**](https://arxiv.org/abs/2508.14079)
+<div class="pub" markdown="1">
+[**A Guide to Robust Generalization: The Impact of Architecture, Pre-training, and Optimization Strategy**](https://arxiv.org/abs/2508.14079)
 
-  S Sahoo, M ElAraby, J Ngnawe, YB Pequignot, F Precioso, C Gagné. AAAI Conference on Artificial Intelligence 2025.
+  M Heuillet, R Bhagwatkar, J Ngnawé, <em>Y Pequignot</em>, A Larouche, C Gagné, I Rish, O Ahmad, A Durand. 
+  
+  Workshop @ NeurIPS 2025: Reliable ML from Unreliable Data.
+</div>
 
-- [**Detecting Brittle Decisions for Free: Leveraging Margin Consistency in Deep Robust Classifiers**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/29753d93c5fc11167567e5df800308ae-Abstract-Conference.html)
+<div class="pub" markdown="1">
+ [**A Layer Selection Approach to Test Time Adaptation**](https://arxiv.org/abs/2508.14079)
 
-  J Ngnawé, S Sahoo, Y Pequignot, F Precioso, C Gagné. Neurips 2024.
+  S Sahoo, M ElAraby, J Ngnawe, <em>Y Pequignot</em>, F Precioso, C Gagné. 
+  
+  AAAI 2025.
+</div>
 
-- [**TrackPGD: Efficient Adversarial Attack using Object Binary Masks against Robust Transformer Trackers**](https://arxiv.org/abs/2407.03946)
+<div class="pub" markdown="1">
+[**Detecting Brittle Decisions for Free: Leveraging Margin Consistency in Deep Robust Classifiers**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/29753d93c5fc11167567e5df800308ae-Abstract-Conference.html)
 
-  FN Nokabadi, YB Pequignot, JF Lalonde, C Gagné. NeurIPS 2024, Workshop AdvML-Frontiers.
+  J Ngnawé, S Sahoo, <em>Y Pequignot</em>, F Precioso, C Gagné. 
+  
+  Neurips 2024.
+</div>
 
-- [**How to certify machine learning based safety-critical systems? A systematic literature review**](https://arxiv.org/abs/2107.12045)
+<div class="pub" markdown="1">
+[**TrackPGD: Efficient Adversarial Attack using Object Binary Masks against Robust Transformer Trackers**](https://arxiv.org/abs/2407.03946)
 
-  F Tambon, G Laberge, L An, A Nikanjam, PSN Mindom, Y Pequignot, F Khomh, G Antoniol, E Merlo, F Laviolette. 2022, in [Automated Software Engineering](https://doi.org/10.1007/s10515-022-00337-x)
+  FN Nokabadi, <em>Y Pequignot</em>, JF Lalonde, C Gagné. 
+  
+  Workshop @ NeurIPS 2024: AdvML-Frontiers.
+</div>
 
-- [**Out-of-distribution detection for regression tasks: parameter versus predictor entropy**](https://arxiv.org/abs/2010.12995)
+<div class="pub" markdown="1">
+[**How to certify machine learning based safety-critical systems? A systematic literature review**](https://arxiv.org/abs/2107.12045)
 
-  Y Pequignot, M Alain, P Dallaire, A Yeganehparast, P Germain, J Desharnais, F Laviolette. 2021, arXiv Preprint.
+  F Tambon, G Laberge, L An, A Nikanjam, PSN Mindom, <em>Y Pequignot</em>, F Khomh, G Antoniol, E Merlo, F Laviolette. 
+  
+  [Automated Software Engineering, 2022](https://doi.org/10.1007/s10515-022-00337-x)
+</div>
+
+<div class="pub" markdown="1">
+ [**Out-of-distribution detection for regression tasks: parameter versus predictor entropy**](https://arxiv.org/abs/2010.12995)
+
+  <em>Y Pequignot</em>, M Alain, P Dallaire, A Yeganehparast, P Germain, J Desharnais, F Laviolette. 2021, arXiv Preprint.
+</div>
+</div>
 
 ---
 
