@@ -43,7 +43,7 @@ layout: default
 </div>
 
 ## Safe learning from interactions
- > Learning through interactions is an extremely powerful approach, yet it also carries inherent risks. Therefore, it is essential to develop theories and methods to enable agents to learn and explore safely.
+ > Learning through interactions is an extremely powerful approach, yet it also carries inherent risks. It is therefore essential to develop theories and methods to enable agents to learn and explore safely.
 
 <div markdown="1" class="pubs">
 

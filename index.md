@@ -14,7 +14,7 @@ layout: default
 
 <!-- <img src="data/yann_2025_sq.jpg" class='profile_picture'> -->
 
-> As a mathematician and machine learning researcher, I am constantly inspired by the foundational work of logicians and mathematicians who formalized the concept of computer program less than a century ago. 
+> As a _mathematician_ and _machine learning researcher_, I am constantly inspired by the foundational work of logicians and mathematicians who formalized the amazing concept of computer program less than a century ago. 
 >This fills me with both humility and enthusiasm!
 
 
