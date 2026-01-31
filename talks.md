@@ -44,9 +44,6 @@ layout: default
 
 # Seminar Talks in Mathematics
 
-- **Implicit Variational Inference for Uncertainty Estimation: the Parameter and the Predictive Space**
-  June 2020, Webinaire de l'IID, Université Laval.
-
 - **Finite versus infinite: an insufficient shift**
   March 2019, Toronto Set Theory Seminar, Fields Institute.
 
