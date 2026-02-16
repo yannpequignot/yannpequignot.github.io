@@ -12,11 +12,11 @@ layout: default
 <div markdown="1" class="pubs">
 
 <div class="pub" markdown="1">
-[**GRANITE: A Generalized Regional Framework for Identifying Agreement in Feature-Based Explanations**](https://openreview.net/forum?id=gAO7AFSTJD)
+[**GRANITE: A Generalized Regional Framework for Identifying Agreement in Feature-Based Explanations**](https://arxiv.org/abs/2601.22771)
 
   J Herbinger, G Laberge, M Muschalik, <em><em>Y Pequignot</em></em>, MN Wright, F Fumagalli.
   
-  AISTATS 2026.   
+  [AISTATS 2026](https://openreview.net/forum?id=gAO7AFSTJD).   
 </div>
 
 <div class="pub" markdown="1">
@@ -89,7 +89,7 @@ layout: default
 </div>
 
 <div class="pub" markdown="1">
- [**A Layer Selection Approach to Test Time Adaptation**](https://arxiv.org/abs/2508.14079)
+ [**A Layer Selection Approach to Test Time Adaptation**](https://ojs.aaai.org/index.php/AAAI/article/view/34229)
 
   S Sahoo, M ElAraby, J Ngnawe, <em>Y Pequignot</em>, F Precioso, C Gagné. 
   
