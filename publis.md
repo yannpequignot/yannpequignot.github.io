@@ -140,9 +140,9 @@ layout: default
 
   with [Raphaël Carroy](http://www.logique.jussieu.fr/~carroy/indexeng.html). 2024, under revision.
 
-- [**Well, Better and In-Between**](http://doi.org/10.1007/978-3-030-30229-0_1)
+- [**Well, Better and In-Between**](Pdf/CarroyP2018-WBAndInBetween.pdf)
 
-  with [Raphaël Carroy](http://www.logique.jussieu.fr/~carroy/indexeng.html). (2020) In Well Quasi-orders in Computation, Logic, Language and Reasoning. Ed. P Schuster, M Seisenberger, A Weiermann, Trends in Logic, Springer.
+  with [Raphaël Carroy](http://www.logique.jussieu.fr/~carroy/indexeng.html). (2020) In Well Quasi-orders in Computation, Logic, Language and Reasoning. Ed. P Schuster, M Seisenberger, A Weiermann, Trends in Logic, [Springer](http://doi.org/10.1007/978-3-030-30229-0_1).
 
 - [**Embeddability on functions: order and chaos**](https://arxiv.org/pdf/1802.08341)
 
