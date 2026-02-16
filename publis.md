@@ -89,11 +89,11 @@ layout: default
 </div>
 
 <div class="pub" markdown="1">
- [**A Layer Selection Approach to Test Time Adaptation**](https://ojs.aaai.org/index.php/AAAI/article/view/34229)
+ [**A Layer Selection Approach to Test Time Adaptation**](https://arxiv.org/abs/2404.03784)
 
   S Sahoo, M ElAraby, J Ngnawe, <em>Y Pequignot</em>, F Precioso, C Gagné. 
   
-  AAAI 2025.
+  [AAAI 2025](https://ojs.aaai.org/index.php/AAAI/article/view/34229).
 </div>
 
 <div class="pub" markdown="1">
