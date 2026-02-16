@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Publications
 ---
 
 # Machine Learning publications

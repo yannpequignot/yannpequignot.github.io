@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Talks
 ---
 
 # Scientific Engagement in Machine Learning
