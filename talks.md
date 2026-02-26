@@ -15,15 +15,15 @@ title: Talks
   Moderator for the XAI panel, Montreal.
 
 - **[Artificial Intelligence is driving the future of digital aviation](https://www.icao.tv/videos/if2024-artificial-intelligence-is-driving-the-future-of-digital-aviation)**
-  Panelist, [ICAO Innovation FAIR](https://www.mobilit.ai/en/mobilit-ai-2024/), 2024, Montreal.
+  Panelist, [ICAO Innovation FAIR 2024](https://www.mobilit.ai/en/mobilit-ai-2024/), 2024, Montreal.
 
 - **[MobiliT.AI 2023](https://www.mobilit.ai/en/mobilit-ai-2024/)**
   Chairman for the XAI session, Toulouse.
 
 - **Dual-use AI roadmapping workshop**
-  Academic research representative. Collision Lab, Centech Montréal.
+  Academic research representative. Collision Lab, Centech, Montréal, 2023.
 
-- **[Peut-on faire confiance à l'intelligence artificielle?](https://www.cscience.ca/emission-cclair-peut-on-faire-confiance-a-lintelligence-artificielle/)**
+- **[Peut-on faire confiance à l'intelligence artificielle?](https://www.youtube.com/watch?v=MDtWrvhBplQ)**
   Emission C+clair. 2020.
 
 - **Implicit Variational Inference : Parameter Space vs Predictor Space**
